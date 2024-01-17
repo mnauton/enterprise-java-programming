@@ -34,16 +34,8 @@ public class NotSpotify {
 		playList2.add(s5);
 		
 		// TODO this is not very efficient, you need to refactor this code into a method that you can call
-		// the method declaration is already provided below
-//		double total = 0.0;
-//		for (Song s : playList1) {
-//			System.out.println(s.toString());
-//			total += s.getPrice();
-//		}
-//		System.out.println("Total fees: " + total + "\n");
+
 		getPlayList(playList2);
-
-
 	}
 
 	public static void getPlayList(List<Song> list) {
